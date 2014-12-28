@@ -17,3 +17,8 @@ Generally, you'll be interested in adding plugins, adding themes, and modifying 
 ```
 
 For everything you ever wanted to know about running Wordpress on Heroku, check out my [heroku-buildpack-wordpress](http://github.com/mchung/heroku-buildpack-wordpress).
+
+## Changes from the base template
+ - Upgrade Akismet to 3.0.4
+ - Install the theme test drive plugin - version 2.9
+ - Tell Heroku to use Wordpress 4.1
