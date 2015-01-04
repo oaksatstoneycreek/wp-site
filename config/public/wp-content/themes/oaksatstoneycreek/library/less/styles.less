@@ -1,0 +1,44 @@
+/*
+
+WP-Bootstrap - Main Styles
+
+*/
+
+
+
+
+@import "wp.less";
+@import "layout.less";
+@import "navbar.less";
+@import "posts.less";
+@import "pages.less";
+@import "comments.less";
+@import "image-attachments.less";
+@import "widgets.less";
+@import "gallery.less";
+
+@body-bg: rgb(250,241,213);
+@font-family-sans-serif: "Sintony", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@navbar-default-bg: rgb(222,201,172);
+@navbar-default-toggle-border-color: darken(@navbar-default-bg, 6.5%);
+@navbar-default-toggle-hover-bg: darken(@navbar-default-bg, 6.5%);
+@link-color: darken(rgb(165,196,187), 15%);
+
+.oaks-hero-unit {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .hidden-on-non-mobile {
+    display: none;
+  }
+}
+
+.edit-post {
+  margin-top: 5px;
+}
